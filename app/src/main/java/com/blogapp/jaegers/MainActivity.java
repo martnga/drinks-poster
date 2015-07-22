@@ -21,7 +21,7 @@ public class MainActivity extends Activity implements View.OnClickListener  {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         fb = (Button)findViewById(R.id.facebook);
-
+        fb.setOnClickListener(this);
         }
 
     @Override
