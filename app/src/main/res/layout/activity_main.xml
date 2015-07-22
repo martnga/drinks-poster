@@ -44,7 +44,7 @@
         android:textColor="#ffeffff3"
         android:paddingStart="2dp"
         android:paddingEnd="2dp"
-        android:textSize="30dp"
+                android:textSize="30dp"
         android:layout_above="@+id/google"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
