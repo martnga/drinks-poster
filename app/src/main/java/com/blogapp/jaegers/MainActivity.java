@@ -7,11 +7,12 @@ import android.os.Bundle;
 /*import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;*/
+import android.view.View;
 import android.widget.Button;
 
 
 
-public class MainActivity extends Activity {
+public class MainActivity extends Activity implements View.OnClickListener  {
 
     Button fb;
 
@@ -22,7 +23,12 @@ public class MainActivity extends Activity {
         fb = (Button)findViewById(R.id.facebook);
 
         }
+
+    @Override
+    public void onClick(View view) {
+
     }
+}
 
 
 
