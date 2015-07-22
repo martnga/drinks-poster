@@ -1,2 +1,2 @@
-This Is a dial and delivery app prototype. Built in Android.
+This Is a dial and delivery app for drinks prototype. Built in Android.
 Android 101.
