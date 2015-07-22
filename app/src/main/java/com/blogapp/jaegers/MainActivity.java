@@ -23,10 +23,19 @@ public class MainActivity extends Activity implements View.OnClickListener  {
         fb = (Button)findViewById(R.id.facebook);
         fb.setOnClickListener(this);
         }
+   private void fbClick()
+   {
+
+   }
 
     @Override
     public void onClick(View view) {
-
+      switch (view.getId())
+      {
+          case R.id.facebook:
+              fbClick();
+              break;
+      }
     }
 }
 
