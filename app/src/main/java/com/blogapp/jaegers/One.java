@@ -1,5 +1,5 @@
-/**
- * Created by tony on 21/07/15.
+package com.blogapp.jaegers; /**
+ * Created by martin on 21/07/15.
  */
 
 import android.app.Activity;

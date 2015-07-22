@@ -1,3 +1,5 @@
+package com.blogapp.jaegers;
+
 import android.app.Activity;
 import android.os.Bundle;
 
